@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Wechat Backend Analysis Extension",
+  "description": "Extension that analyzes the backend of Wechat",
+  "devtools_page": "devtools.html",
+  "version": "0.1",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  }
+}

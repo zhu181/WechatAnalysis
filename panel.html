@@ -1,0 +1,43 @@
+
+<!doctype html>
+<html style="display: flex">
+  <head>
+    <meta charset="utf8" />
+    <style>
+      html {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        flex: 1;
+        display: flex;
+        width: 100%;
+      }
+      #container {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <article id="container" >
+      <table id="table">
+        <tr>
+          <th>title</th>
+          <th>post date</th>
+          <th>total view</th>
+          <th colspan="14">list of views in 14 days</th>
+        </tr>
+      </table>
+    </article>
+    <script src="panel.js"></script>
+  </body>
+</html>
